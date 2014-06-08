@@ -18,7 +18,10 @@
   "strict": true,
   "trailing": true,
   "smarttabs": true,
+  "Firebase": false,
   "globals": {
-    "angular": false
+    "angular": false,
+    "app": false,
+    "Firebase": false
   }
 }

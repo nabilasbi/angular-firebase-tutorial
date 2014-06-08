@@ -1,3 +1,4 @@
+/* global app:true */
 'use strict';
 
 /**
@@ -15,8 +16,11 @@ var app = angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
-  ]);
+    'ngTouch',
+    'firebase'
+  ])
+  .constant('FIREBASE_URL', 'h ttps://boiling-fire-2316.firebaseio.com/');
+
   app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
